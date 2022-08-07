@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+    <!-- Link to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <a href="#" class="logo">Udhav</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="#home " onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+        </ul>
+
+    </nav>
+    <!-- Main text and Image -->
+    <section id="home">
+        <div class="home-text">
+            <h1>Hi, I'm <br><span>Udhav.</span><br>A High School Student.</h1>
+            <!-- Button -->
+            <a href="#">
+                <btn class="btn">Explore</btn>
+            </a>
+        </div>
+        <!-- Home Image -->
+        <div class="home-img">
+            <img src="images/profile.jpeg">
+        </div>
+
+        <!-- Social -->
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram'></a></i>
+            <a href="#"><i class='bx bxl-pinterest-alt'></a></i>
+            <a href="https://bio.link/urls"><i class='bx bx-link-alt'></a></i>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+        <!-- About content -->
+        <div class="about-content">
+            <div class="about-img">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm <span>Udhav</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat, ab deleniti voluptate
+                    cumque neque quos pariatur similique at ullam dolore inventore veniam maxime voluptatum. Hic
+                    perspiciatis reiciendis accusamus iste.</p>
+                <a href="#">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <p>
+                My other websites
+            </p>
+        </div>
+        <div class="services-content">
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/Wallpapers website.jpg" alt="">
+                <h1>HTML Project</h1>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="skills">
+        <div class="heading">
+            <h2>My Skills</h2>
+            <p>Here are my <span>skills</span></p>
+        </div>
+        <div class="skill-main">
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Html</p>
+                    <p class="percent" >70%</p>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <p class="percent" >75%</p>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Java Script</p>
+                    <p class="percent" >60%</p>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Python</p>
+                    <p class="percent" >80%</p>
+                </div>
+                <div class="bar">
+                    <span class="python"></span>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="info">
+                    <p>Java</p>
+                    <p class="percent" >20%</p>
+                </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Udhav ⓒ All Rights Reserved</p>
+    </div>
+
+    <!-- Link to js -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
